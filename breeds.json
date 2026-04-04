@@ -1,0 +1,330 @@
+{
+  "Alambadi": {
+    "name": "Alambadi",
+    "type": "Cattle",
+    "origin": "Tamil Nadu, India",
+    "characteristics": "Medium-sized, reddish-brown color, good foragers",
+    "milk_production": "1,500-2,000 liters per lactation",
+    "description": "Local cattle breed adapted to hot and dry climate"
+  },
+  "Amritmahal": {
+    "name": "Amritmahal",
+    "type": "Cattle",
+    "origin": "Karnataka, India",
+    "characteristics": "Large, medium frame, grey color, draught and dual purpose",
+    "milk_production": "1,500-2,000 liters per lactation",
+    "description": "Excellent for draught work and milk production"
+  },
+  "Ayrshire": {
+    "name": "Ayrshire",
+    "type": "Cattle",
+    "origin": "Scotland",
+    "characteristics": "Medium-sized, red and white colored, high milk production",
+    "milk_production": "5,000-6,000 liters per lactation",
+    "description": "Imported breed, excellent dairy cattle"
+  },
+  "Banni": {
+    "name": "Banni",
+    "type": "Cattle",
+    "origin": "Gujarat, India",
+    "characteristics": "Medium to large, reddish-brown, dual purpose",
+    "milk_production": "2,000-2,500 liters per lactation",
+    "description": "Hardy cattle suited for semi-arid regions"
+  },
+  "Bargur": {
+    "name": "Bargur",
+    "type": "Cattle",
+    "origin": "Tamil Nadu, India",
+    "characteristics": "Small to medium, reddish-brown, draught and dairy",
+    "milk_production": "1,200-1,500 liters per lactation",
+    "description": "Local breed adapted to Western Ghats"
+  },
+  "Bhadawari": {
+    "name": "Bhadawari",
+    "type": "Buffalo",
+    "origin": "Uttar Pradesh, India",
+    "characteristics": "Medium-sized, black color, dual purpose",
+    "milk_production": "2,500-3,000 liters per lactation",
+    "description": "Buffalo breed with good milk and meat production"
+  },
+  "Brown_Swiss": {
+    "name": "Brown Swiss",
+    "type": "Cattle",
+    "origin": "Switzerland",
+    "characteristics": "Large, brown color, high milk production",
+    "milk_production": "6,000-7,000 liters per lactation",
+    "description": "Imported dairy breed, well adapted to Indian conditions"
+  },
+  "Dangi": {
+    "name": "Dangi",
+    "type": "Cattle",
+    "origin": "Maharashtra, India",
+    "characteristics": "Medium to large, reddish-brown, draught type",
+    "milk_production": "800-1,000 liters per lactation",
+    "description": "Draught cattle breed from Deccan plateau"
+  },
+  "Deoni": {
+    "name": "Deoni",
+    "type": "Cattle",
+    "origin": "Andhra Pradesh, India",
+    "characteristics": "Medium, reddish-brown, dual purpose",
+    "milk_production": "1,800-2,200 liters per lactation",
+    "description": "Good quality dual purpose cattle breed"
+  },
+  "Gir": {
+    "name": "Gir",
+    "type": "Cattle",
+    "origin": "Gujarat, India",
+    "characteristics": "Large, reddish-brown, high milk production",
+    "milk_production": "2,500-3,000 liters per lactation",
+    "description": "One of the best Indian dairy breeds, red and white colored"
+  },
+  "Guernsey": {
+    "name": "Guernsey",
+    "type": "Cattle",
+    "origin": "England (Channel Islands)",
+    "characteristics": "Medium-sized, gold and white, high butter fat milk",
+    "milk_production": "4,500-5,500 liters per lactation",
+    "description": "Imported dairy breed with high fat content milk"
+  },
+  "Hallikar": {
+    "name": "Hallikar",
+    "type": "Cattle",
+    "origin": "Karnataka, India",
+    "characteristics": "Large, dark red or brown, good draught",
+    "milk_production": "1,200-1,500 liters per lactation",
+    "description": "Excellent draught cattle from southern India"
+  },
+  "Hariana": {
+    "name": "Hariana",
+    "type": "Cattle",
+    "origin": "Haryana, India",
+    "characteristics": "Large, grey or iron-grey, dual purpose",
+    "milk_production": "1,600-2,000 liters per lactation",
+    "description": "Famous for draught and milk production in Indo-Gangetic plains"
+  },
+  "Holstein_Friesian": {
+    "name": "Holstein Friesian",
+    "type": "Cattle",
+    "origin": "Netherlands",
+    "characteristics": "Large, black and white, very high milk production",
+    "milk_production": "9,000-11,000 liters per lactation",
+    "description": "World's most popular dairy breed, highest milk yielder"
+  },
+  "Jaffrabadi": {
+    "name": "Jaffrabadi",
+    "type": "Buffalo",
+    "origin": "Gujarat, India",
+    "characteristics": "Large, black, high milk production",
+    "milk_production": "3,500-4,000 liters per lactation",
+    "description": "Premium buffalo breed from Gujarat, excellent dairy buffalo"
+  },
+  "Jersey": {
+    "name": "Jersey",
+    "type": "Cattle",
+    "origin": "England (Channel Islands)",
+    "characteristics": "Small, light brown, high butterfat milk",
+    "milk_production": "3,500-4,500 liters per lactation",
+    "description": "Small but efficient dairy breed with golden milk"
+  },
+  "Kangayam": {
+    "name": "Kangayam",
+    "type": "Cattle",
+    "origin": "Tamil Nadu, India",
+    "characteristics": "Medium, reddish-brown, draught and dual purpose",
+    "milk_production": "1,200-1,500 liters per lactation",
+    "description": "Ancient breed famous for draught and hardiness"
+  },
+  "Kankrej": {
+    "name": "Kankrej",
+    "type": "Cattle",
+    "origin": "Gujarat, India",
+    "characteristics": "Large, reddish-brown, excellent draught and dairy",
+    "milk_production": "2,000-2,400 liters per lactation",
+    "description": "Excellent dual purpose breed with massive frame"
+  },
+  "Kasargod": {
+    "name": "Kasargod",
+    "type": "Cattle",
+    "origin": "Kerala, India",
+    "characteristics": "Small to medium, red or reddish-brown",
+    "milk_production": "800-1,200 liters per lactation",
+    "description": "Local breed from northern Kerala"
+  },
+  "Kenkatha": {
+    "name": "Kenkatha",
+    "type": "Cattle",
+    "origin": "Madhya Pradesh, India",
+    "characteristics": "Medium, dark colored, draught type",
+    "milk_production": "1,000-1,200 liters per lactation",
+    "description": "Draught cattle adapted to central Indian conditions"
+  },
+  "Kherigarh": {
+    "name": "Kherigarh",
+    "type": "Cattle",
+    "origin": "Uttar Pradesh, India",
+    "characteristics": "Large, grey or iron coloured, draught type",
+    "milk_production": "1,200-1,400 liters per lactation",
+    "description": "Draught cattle from northern Indo-Gangetic plains"
+  },
+  "Khillari": {
+    "name": "Khillari",
+    "type": "Cattle",
+    "origin": "Maharashtra, India",
+    "characteristics": "Large, dark coloured, excellent draught",
+    "milk_production": "1,000-1,200 liters per lactation",
+    "description": "Powerful draught cattle with good constitution"
+  },
+  "Krishna_Valley": {
+    "name": "Krishna Valley",
+    "type": "Cattle",
+    "origin": "Karnataka & Andhra Pradesh, India",
+    "characteristics": "Large, red and white, dual purpose",
+    "milk_production": "2,000-2,500 liters per lactation",
+    "description": "Rare breed with good meat and milk production"
+  },
+  "Malnad_gidda": {
+    "name": "Malnad Gidda",
+    "type": "Cattle",
+    "origin": "Karnataka, India",
+    "characteristics": "Small, red and white, hardy",
+    "milk_production": "800-1,000 liters per lactation",
+    "description": "Small buffer breed adapted to hilly regions"
+  },
+  "Mehsana": {
+    "name": "Mehsana",
+    "type": "Buffalo",
+    "origin": "Gujarat, India",
+    "characteristics": "Large, black, high milk production",
+    "milk_production": "3,000-3,500 liters per lactation",
+    "description": "Important buffalo breed for dairy purpose"
+  },
+  "Murrah": {
+    "name": "Murrah",
+    "type": "Buffalo",
+    "origin": "Haryana, India",
+    "characteristics": "Very large, jet black, highest milk production",
+    "milk_production": "4,000-5,000 liters per lactation",
+    "description": "World's finest buffalo breed with highest milk production"
+  },
+  "Nagori": {
+    "name": "Nagori",
+    "type": "Cattle",
+    "origin": "Rajasthan, India",
+    "characteristics": "Large, dark red, excellent draught",
+    "milk_production": "1,200-1,500 liters per lactation",
+    "description": "Draught cattle from Marwar region of Rajasthan"
+  },
+  "Nagpuri": {
+    "name": "Nagpuri",
+    "type": "Cattle",
+    "origin": "Maharashtra, India",
+    "characteristics": "Large, black, dual purpose",
+    "milk_production": "1,200-1,400 liters per lactation",
+    "description": "Hardy cattle from central India"
+  },
+  "Nili_Ravi": {
+    "name": "Nili Ravi",
+    "type": "Buffalo",
+    "origin": "Pakistan (Ravi & Sutlej rivers)",
+    "characteristics": "Medium, black, excellent dairy qualities",
+    "milk_production": "2,500-3,000 liters per lactation",
+    "description": "Highly appreciated buffalo for milk production"
+  },
+  "Nimari": {
+    "name": "Nimari",
+    "type": "Cattle",
+    "origin": "Madhya Pradesh, India",
+    "characteristics": "Large, dark coloured, dual purpose",
+    "milk_production": "1,400-1,600 liters per lactation",
+    "description": "Cattle breed from Nimar region of Madhya Pradesh"
+  },
+  "Ongole": {
+    "name": "Ongole",
+    "type": "Cattle",
+    "origin": "Andhra Pradesh, India",
+    "characteristics": "Large, white, excellent meat and draught",
+    "milk_production": "1,500-2,000 liters per lactation",
+    "description": "Famous beef and draught cattle breed with massive frame"
+  },
+  "Pulikulam": {
+    "name": "Pulikulam",
+    "type": "Cattle",
+    "origin": "Tamil Nadu, India",
+    "characteristics": "Medium, reddish-brown, dual purpose",
+    "milk_production": "1,200-1,400 liters per lactation",
+    "description": "Ancient Tamil Nadu breed with good milk production"
+  },
+  "Rathi": {
+    "name": "Rathi",
+    "type": "Cattle",
+    "origin": "Rajasthan, India",
+    "characteristics": "Medium to large, reddish-brown, dual purpose",
+    "milk_production": "2,000-2,200 liters per lactation",
+    "description": "Good quality cattle breed from Marwar region"
+  },
+  "Red_Dane": {
+    "name": "Red Dane",
+    "type": "Cattle",
+    "origin": "Denmark",
+    "characteristics": "Large, red, high milk production",
+    "milk_production": "6,000-7,000 liters per lactation",
+    "description": "Imported breed, good for Indian dairy farming"
+  },
+  "Red_Sindhi": {
+    "name": "Red Sindhi",
+    "type": "Cattle",
+    "origin": "Pakistan (Sindh province)",
+    "characteristics": "Medium, reddish-brown, excellent dairy qualities",
+    "milk_production": "2,500-3,000 liters per lactation",
+    "description": "Heat tolerant breed with good milk production"
+  },
+  "Sahiwal": {
+    "name": "Sahiwal",
+    "type": "Cattle",
+    "origin": "Punjab (India-Pakistan border)",
+    "characteristics": "Medium to large, reddish-brown, heat tolerant, high milk",
+    "milk_production": "2,500-3,500 liters per lactation",
+    "description": "Excellent heat-tolerant dairy breed, internationally recognized"
+  },
+  "Surti": {
+    "name": "Surti",
+    "type": "Buffalo",
+    "origin": "Gujarat, India",
+    "characteristics": "Medium, brown and white or grey, dairy buffalo",
+    "milk_production": "2,000-2,500 liters per lactation",
+    "description": "Important dairy buffalo breed from Gujarat"
+  },
+  "Tharparkar": {
+    "name": "Tharparkar",
+    "type": "Cattle",
+    "origin": "Rajasthan (Thar desert)",
+    "characteristics": "Large, reddish-brown, excellent for arid regions",
+    "milk_production": "2,000-2,500 liters per lactation",
+    "description": "Desert-adapted breed with high heat tolerance"
+  },
+  "Toda": {
+    "name": "Toda",
+    "type": "Cattle",
+    "origin": "Tamil Nadu, India",
+    "characteristics": "Medium, dark coloured, hardy",
+    "milk_production": "600-800 liters per lactation",
+    "description": "Small dairy cattle from Nilgiris region"
+  },
+  "Umblachery": {
+    "name": "Umblachery",
+    "type": "Cattle",
+    "origin": "Tamil Nadu, India",
+    "characteristics": "Medium, reddish brown, draught and dual purpose",
+    "milk_production": "1,000-1,200 liters per lactation",
+    "description": "Local breed from Southern India with good draught qualities"
+  },
+  "Vechur": {
+    "name": "Vechur",
+    "type": "Cattle",
+    "origin": "Kerala, India",
+    "characteristics": "Smallest cattle breed, brown and white",
+    "milk_production": "500-600 liters per lactation",
+    "description": "Smallest breed in the world, excellent for small farms"
+  }
+}
