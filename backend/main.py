@@ -17,6 +17,7 @@ import json
 from pathlib import Path
 import logging
 from contextlib import asynccontextmanager
+import os
 
 # ================= LOGGING =================
 logging.basicConfig(level=logging.INFO)
@@ -113,9 +114,18 @@ app = FastAPI(
 )
 
 # ================= CORS =================
+# Get allowed origins from environment or use defaults
+def get_allowed_origins():
+    """Get CORS allowed origins from environment variable or use defaults."""
+    allowed = os.getenv(
+        "ALLOWED_ORIGINS",
+        "http://localhost:3000,http://localhost:8000"
+    )
+    return [origin.strip() for origin in allowed.split(",")]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=get_allowed_origins(),
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

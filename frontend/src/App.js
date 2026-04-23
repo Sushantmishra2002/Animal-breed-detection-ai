@@ -182,7 +182,10 @@ export default function App() {
   const [dragOver, setDragOver] = useState(false);
   const [navScrolled, setNavScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [apiUrl] = useState('http://localhost:8000');
+  // Support both environment variable and localhost fallback
+  const [apiUrl] = useState(
+    process.env.REACT_APP_API_URL || 'http://localhost:8000'
+  );
   const fileInputRef = useRef(null);
 
   /* ── Set browser tab title + favicon ── */

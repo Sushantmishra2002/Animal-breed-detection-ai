@@ -1,0 +1,97 @@
+# =========================
+# OS & SYSTEM FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# ENV FILES (IMPORTANT)
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# PYTHON BACKEND
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# FastAPI / logs
+*.log
+
+# =========================
+# ML / AI FILES (VERY IMPORTANT)
+# =========================
+# Ignore large model files
+model/
+*.pt
+*.pth
+*.h5
+*.onnx
+*.pkl
+
+# Training outputs
+training/
+runs/
+checkpoints/
+
+# =========================
+# DATASETS (LARGE FILES)
+# =========================
+dataset/
+*.csv
+*.zip
+*.tar
+*.gz
+
+# =========================
+# NODE / FRONTEND
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build folders
+dist/
+build/
+
+# Next.js / React cache
+.next/
+.cache/
+
+# =========================
+# IDE / EDITOR FILES
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# FRONTEND ENV
+# =========================
+frontend/.env
+frontend/.env.local
+
+# =========================
+# MISC
+# =========================
+*.bak
+*.tmp
+
+# =========================
+# OPTIONAL (if generated)
+# =========================
+coverage/
