@@ -20,7 +20,7 @@ services:
         value: info
 
   # Frontend Static Site
-  - type: static
+  - type: static_site
     name: breed-detection-app
     rootDir: frontend
     staticPublishPath: build
