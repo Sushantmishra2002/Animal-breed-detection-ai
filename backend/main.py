@@ -18,6 +18,7 @@ from pathlib import Path
 import logging
 from contextlib import asynccontextmanager
 import os
+import urllib.request
 
 # ================= LOGGING =================
 logging.basicConfig(level=logging.INFO)
@@ -36,6 +37,22 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 MODEL_PATH  = BASE_DIR / "model" / "breed_classifier.pth"
 CLASS_PATH  = BASE_DIR / "model" / "class_mapping.pkl"
 BREEDS_PATH = BASE_DIR / "breeds.json"
+
+MODEL_URL = "https://raw.githubusercontent.com/Sushantmishra2002/Animal-breed-detection-ai/main/model/breed_classifier.pth"
+CLASS_URL = "https://raw.githubusercontent.com/Sushantmishra2002/Animal-breed-detection-ai/main/model/class_mapping.pkl"
+
+
+def ensure_model_artifacts():
+    """Download model artifacts from GitHub when not present in runtime filesystem."""
+    MODEL_PATH.parent.mkdir(parents=True, exist_ok=True)
+
+    if not MODEL_PATH.exists():
+        logger.warning("Model file missing, downloading from GitHub...")
+        urllib.request.urlretrieve(MODEL_URL, str(MODEL_PATH))
+
+    if not CLASS_PATH.exists():
+        logger.warning("Class mapping missing, downloading from GitHub...")
+        urllib.request.urlretrieve(CLASS_URL, str(CLASS_PATH))
 
 print("\n========== PATH DEBUG ==========")
 print("MODEL PATH   :", MODEL_PATH)
@@ -57,6 +74,8 @@ def load_model():
     global MODEL, CLASSES, BREED_INFO
 
     try:
+        ensure_model_artifacts()
+
         # -------- Load classes --------
         with open(CLASS_PATH, "rb") as f:
             CLASSES = pickle.load(f)
