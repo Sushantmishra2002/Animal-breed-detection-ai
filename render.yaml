@@ -20,8 +20,9 @@ services:
         value: info
 
   # Frontend Static Site
-  - type: static_site
+  - type: web
     name: breed-detection-app
+    env: static
     rootDir: frontend
     staticPublishPath: build
     buildCommand: npm install && npm run build
